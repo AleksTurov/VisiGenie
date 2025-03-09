@@ -1,0 +1,31 @@
+# Core libraries
+python-telegram-bot==20.6  # Библиотека для создания Telegram-ботов
+transformers==4.33.2       # Hugging Face для работы с моделями
+torch==2.0.1               # PyTorch для поддержки моделей из Hugging Face
+diffusers==0.27.0          # Для генерации изображений с Diffusion моделями
+Pillow==10.0.0             # Работа с изображениями (сохранение, конвертация)
+requests==2.31.0           # HTTP-запросы к API Hugging Face и AWS
+
+# AWS SDK
+boto3==1.28.0              # Работа с AWS S3 и Lambda
+
+# For video processing
+moviepy==1.0.3             # Создание и редактирование видео
+ffmpeg-python==0.2.0       # Альтернатива для работы с видео через FFmpeg
+
+# Environment variables
+python-dotenv==1.0.0       # Чтение переменных окружения из .env файла
+
+# FastAPI (optional, for future REST API)
+fastapi==0.103.0           # Для создания REST API
+uvicorn==0.23.0            # ASGI-сервер для запуска FastAPI
+
+# MLflow (optional, for tracking models)
+mlflow==2.7.0              # Отслеживание экспериментов и версий моделей
+
+# Other utilities
+loguru==0.7.0              # Продвинутая логгинг-библиотека
+tqdm==4.66.0               # Прогресс-бары для долгих операций
+
+# Docker (for containerization)
+docker==6.1.0              # Управление контейнерами Docker через Python API
