@@ -171,3 +171,5 @@ cython_debug/
 .pypirc
 VisiGenie-bot_credentials.csv
 VisiGenie-bot_accessKeys.csv
+
+.vscode
